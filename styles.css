@@ -148,11 +148,49 @@ h2 {
     color: #1F2937;
     font-weight: light;
     font-style: italic;
-    max-width: 50ch;
+    max-width: 55ch;
+    text-align: center;
 }
 
 .Inspirational-Quote-Author {
     font-weight: bold;
-    margin-top: 70px;
+    margin-top: 75px;
+    margin-left: 10px;
 }
 
+.layer-4 {
+    display: flex;
+    margin: 75px 275px;
+    justify-content: space-evenly;
+    padding: 25px 0px 25px 0px;
+    background-color: #3882F6;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.h3 {
+    font-weight: bold;
+}
+
+.layer-4 button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 125px;
+    margin: 25px;
+}
+
+.footer {
+    text-align: center;
+    background: #1F2937;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.footer p {
+
+}
