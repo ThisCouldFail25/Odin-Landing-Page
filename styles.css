@@ -103,23 +103,23 @@ h1 {
     height: 350px;
 }
 
-.layer-2 {
-
-}
-
 h2 {
     display: flex;
     justify-content: center;
     font-size: 32px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 15px;
+}
+
+.layer-2 {
+    padding: 20px 0px 30px 0;
 }
 
 .layer-2-boxes {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding-bottom: 20px;
+    gap: 60px;
 }
 
 .layer-2-boxes img {
@@ -127,7 +127,8 @@ h2 {
     border-color: #3882F6;
     height: 200px;
     width: 250px;
-    border-radius: 2em;
+    border-radius: 1.5em;
+    border-width: 5px;
 }
 
 .layer-2-boxes p {
@@ -135,4 +136,23 @@ h2 {
     justify-content: center;
 }
 
+.layer-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 30px 0;
+}
+
+.Inspirational-Quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    max-width: 50ch;
+}
+
+.Inspirational-Quote-Author {
+    font-weight: bold;
+    margin-top: 70px;
+}
 
